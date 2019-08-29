@@ -226,6 +226,9 @@ class Zend_Mail_Storage_Mbox extends Zend_Mail_Storage_Abstract
                 return false;
             }
         } else {
+            if (is_dir(stream_get_meta_data($file)['uri'])) {
+                return false;
+            }
             fseek($file, 0);
         }
 
