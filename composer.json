@@ -9,12 +9,12 @@
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
     "require": {
-        "php": "^7.4 || ~8.0 || ~8.1",
+        "php": "^7.4 || ~8.0.0 || ~8.1.0",
         "ext-ctype": "*",
         "diablomedia/zendframework1-exception": "^1.0.0",
         "diablomedia/zendframework1-config": "^1.0.0 || ^2.0.0",
         "diablomedia/zendframework1-loader": "^1.0.0",
-        "diablomedia/zendframework1-mime": "^1.0.0",
+        "diablomedia/zendframework1-mime": "^1.0.5",
         "diablomedia/zendframework1-validate": "^1.0.0",
         "diablomedia/zendframework1-date": "^1.0.0"
     },
