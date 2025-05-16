@@ -185,12 +185,11 @@ class Zend_Mail_Transport_Sendmail extends Zend_Mail_Transport_Abstract
      *
      * @param int    $errno
      * @param string $errstr
-     * @param string $errfile
-     * @param string $errline
-     * @param array  $errcontext
+     * @param ?string $errfile
+     * @param ?string $errline
      * @return true
      */
-    public function _handleMailErrors($errno, $errstr, $errfile = null, $errline = null, array $errcontext = null)
+    public function _handleMailErrors($errno, $errstr, $errfile = null, $errline = null, ?array $errcontext = null)
     {
         $this->_errstr = $errstr;
         return true;
